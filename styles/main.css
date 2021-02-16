@@ -293,8 +293,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
     border-radius: 6px;
     padding: 10px;
     font-size: 18px;
-    min-width: 100px;
-    margin-left: -100px;
+    min-width: 99%;
+    display: inline-block;
     color: #fe702e;
     font-weight: 700;
     cursor: pointer;
@@ -376,4 +376,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   color: rgb(234, 67, 53);
   font-size: 18px;
   transition: all ease-in-out 0.2s;
+}
+
+.section {
+  margin-bottom: -100px;
+}
+
+.section-designs {
+  padding-top: 150px;
 }
