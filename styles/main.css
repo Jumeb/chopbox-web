@@ -64,6 +64,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   }
 }
 
+.aa-header .aa-logo-img {
+  height: 95px;
+  width: 100px;
+}
+
 @media (max-width: 576px) {
   .aa-header .aa-logo-img {
     padding-left: 20px;
