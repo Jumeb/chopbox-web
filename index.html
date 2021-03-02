@@ -568,17 +568,17 @@
           <!-- <h4>Purchase Form</h4> -->
       </div>
 
-      <form class="w3-container w3-margin-top" action="/action_page.php">
+      <form class="w3-container w3-margin-top" action="action_page.php" method="POST">
         <div class="w3-section">
-          <label><b>First name</b></label>
+          <label><b>Name</b></label>
           <input type="text" name="name" id="name" placeholder="John" class="input-field" required />
           <label><b>Email</b></label>
-          <input type="email" name="name" id="name" placeholder="johndoe@gmail.com" class="input-field" required />
+          <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" class="input-field" required />
           <label><b>Type</b></label>
-          <input type="text" name="name" id="type" placeholder="johndoe@gmail.com" class="input-field" required readonly />
+          <input type="text" name="category" id="category" class="input-field" required readonly />
           <label><b>Price</b></label>
-          <input type="number" name="name" id="price" placeholder="johndoe@gmail.com" class="input-field" required readonly />
-          <button class="submit-button w3-section">Submit</button>
+          <input type="number" name="price" id="price" class="input-field" required readonly />
+          <button type="submit" name="submit" class="submit-button w3-section">Submit</button>
         </div>
       </form>
 
