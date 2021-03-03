@@ -1,6 +1,6 @@
 
 const modal = document.getElementById('id01');
-const type = document.getElementById('type');
+const type = document.getElementById('category');
 const price = document.getElementById('price');
 
 // When the user clicks anywhere outside of the modal, close it
